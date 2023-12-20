@@ -1,0 +1,8 @@
+#!/bin/bash
+rm /home/jovyan/work/workspace/start_touch
+touch /home/jovyan/work/workspace/start_touch
+export LD_LIBRARY_PATH=/foo/bar/:$LD_LIBRARY_PATH
+conda activate notebook
+cd /home/jovyan/work/workspace
+pip install isort
+exec "$@"

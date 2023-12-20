@@ -1,0 +1,10 @@
+name: test_wholetale
+channels:
+  - conda-forge
+  - nodefaults
+  - pyviz
+  - bioconda
+dependencies:
+  - numpy
+  - pip:
+      - black
